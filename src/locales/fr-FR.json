@@ -1,0 +1,34 @@
+{
+  "translation": {
+    "components": {
+      "navbar": {
+        "shop": "Boutique",
+        "get_in_touch": "Nous contacter",
+        "about_us": "À propos"
+      },
+      "footer": {
+        "services": {
+          "title": "Services",
+          "legal_notice": "Mentions légales",
+          "data_protection": "Protection des données"
+        },
+        "newslettre": {
+          "title": "Newsletter",
+          "enter_email_address": "Entrez votre adresse e-mail",
+          "sign_up": "S’abonnez"
+        },
+        "socials": {
+          "title": "Réseaux sociaux"
+        },
+        "signature": "Réalisé avec ❤️ par"
+      }
+    },
+    "page_content": {
+      "home": {
+        "hero_title": "Maîtrisez l'art culinaire",
+        "cta_btn": "Achetez maintenant"
+      },
+      "about": {}
+    }
+  }
+}

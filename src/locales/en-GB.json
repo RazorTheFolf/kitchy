@@ -1,0 +1,34 @@
+{
+  "translation": {
+    "components": {
+      "navbar": {
+        "shop": "Shop",
+        "get_in_touch": "Get in Touch",
+        "about_us": "About Us"
+      },
+      "footer": {
+        "services": {
+          "title": "Services",
+          "legal_notice": "Legal Notice",
+          "data_protection": "Data Protection"
+        },
+        "newslettre": {
+          "title": "Newsletter",
+          "enter_email_address": "Enter email address",
+          "sign_up": "Sign Up"
+        },
+        "socials": {
+          "title": "Socials"
+        },
+        "signature": "Made with ❤️ by"
+      }
+    },
+    "page_content": {
+      "home": {
+        "hero_title": "Master the art of the kitchen",
+        "cta_btn": "Show Now"
+      },
+      "about": {}
+    }
+  }
+}

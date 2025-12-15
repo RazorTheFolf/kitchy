@@ -1,0 +1,48 @@
+:root {
+  /* Text font sizes variables */
+  --text-size-h1: 47.78px;
+  --text-size-h2: 39.81px;
+  --text-size-h3: 33.18px;
+  --text-size-h4: 27.65px;
+  --text-size-h5: 23.04px;
+  --text-size-h6: 19.2px;
+  --text-size-p: 16px;
+  --text-size-small: 13.33px;
+
+  /* Colors variables */
+  --color-accent: #976d59;
+  --color-background: #fbfafa;
+  --color-font: #2f2b2b;
+  --color-placeholder: #afaeae;
+  --color-input-background: #d1bbb1;
+  --color-border: #ded9d9;
+  --color-bgNav-elements: #f6efeb;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  color: var(--color-font);
+}
+
+#root {
+  padding: 15px;
+  height: 100svh;
+  width: 100svw;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-font);
+}
