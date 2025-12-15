@@ -18,10 +18,10 @@ function Navbar() {
       </div>
       <div className={styles.nav_shortcuts}>
         <a href="#">
-          <Icon icon="iconamoon:search-duotone" width="24" height="24" />
+          <Icon icon="iconamoon:search-duotone" width="26" height="26" />
         </a>
         <Link to="/shop/cart">
-          <Icon icon="iconamoon:shopping-bag-duotone" width="24" height="24" />
+          <Icon icon="iconamoon:shopping-bag-duotone" width="27" height="27" />
         </Link>
       </div>
     </nav>

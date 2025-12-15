@@ -33,6 +33,43 @@ function Home() {
             </Link>
           </section>
         </section>
+        <section className={styles.banner_container}>
+          <section className={styles.banner_element}>
+            <span className={styles.banner_icon}>
+              <Icon icon="solar:box-bold-duotone" width="75" height="75" />
+            </span>
+            <div className={styles.banner_text}>
+              <h2>{t("page_content.home.banner.shipping.title")}</h2>
+              <p>{t("page_content.home.banner.shipping.description")}</p>
+            </div>
+          </section>
+          <section className={styles.banner_element}>
+            <span className={styles.banner_icon}>
+              <Icon
+                icon="solar:chef-hat-heart-bold-duotone"
+                width="75"
+                height="75"
+              />
+            </span>
+            <div className={styles.banner_text}>
+              <h2>{t("page_content.home.banner.quality.title")}</h2>
+              <p>{t("page_content.home.banner.quality.description")}</p>
+            </div>
+          </section>
+          <section className={styles.banner_element}>
+            <span className={styles.banner_icon}>
+              <Icon
+                icon="solar:tag-price-bold-duotone"
+                width="75"
+                height="75"
+              />
+            </span>
+            <div className={styles.banner_text}>
+              <h2>{t("page_content.home.banner.price.title")}</h2>
+              <p>{t("page_content.home.banner.price.description")}</p>
+            </div>
+          </section>
+        </section>
       </main>
     </>
   );

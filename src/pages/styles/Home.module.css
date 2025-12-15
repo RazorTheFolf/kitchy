@@ -1,3 +1,9 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .hero_container {
   display: flex;
   gap: 35px;
@@ -95,4 +101,40 @@
 
 .shop_btn:hover svg {
   transform: translateX(7px);
+}
+
+/* Banner  */
+
+.banner_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 25px 35px 25px;
+  border: 2px solid var(--color-border);
+  border-radius: 21px;
+}
+
+.banner_element {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner_icon {
+  color: var(--color-accent);
+  background-color: var(--color-bgNav-elements);
+  padding: 18px;
+  border-radius: 30px;
+}
+
+.banner_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 290px;
+}
+
+.banner_text h2 {
+  font-weight: 450;
+  font-size: var(--text-size-h6);
 }

@@ -26,7 +26,21 @@
     "page_content": {
       "home": {
         "hero_title": "Master the art of the kitchen",
-        "cta_btn": "Show Now"
+        "cta_btn": "Show Now",
+        "banner": {
+          "shipping": {
+            "title": "Free Worldwide Shipping",
+            "description": "Free shipping to all over the world with many specials only for our dear customers"
+          },
+          "quality": {
+            "title": "Best Quality Product",
+            "description": "Many customers entrust various kitchen appliances needs to us, and customer satisfaction is our pride."
+          },
+          "price": {
+            "title": "Super Affordable Price",
+            "description": "You can get various kitchen appliances of quality at affordable prices"
+          }
+        }
       },
       "about": {}
     }

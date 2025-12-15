@@ -26,7 +26,21 @@
     "page_content": {
       "home": {
         "hero_title": "Maîtrisez l'art culinaire",
-        "cta_btn": "Achetez maintenant"
+        "cta_btn": "Achetez maintenant",
+        "banner": {
+          "shipping": {
+            "title": "Livraison mondial gratuite",
+            "description": "Livraison gratuite partout dans le monde avec de nombreuses offres spéciales réservées à nos chers clients."
+          },
+          "quality": {
+            "title": "Produit de haute qualité",
+            "description": "De nombreux clients nous confient leurs besoins en matière d'appareils électroménagers de cuisine, et leur satisfaction est notre fierté."
+          },
+          "price": {
+            "title": "Prix très abordable",
+            "description": "Vous pouvez vous procurer divers appareils électroménagers de cuisine de qualité à des prix abordables."
+          }
+        }
       },
       "about": {}
     }
