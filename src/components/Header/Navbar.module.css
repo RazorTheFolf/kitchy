@@ -1,3 +1,7 @@
+header {
+  padding: 15px 15px 0 15px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -56,4 +60,9 @@ nav {
 .nav_shortcuts {
   display: flex;
   gap: 15px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
 }

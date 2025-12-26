@@ -12,7 +12,7 @@
           "legal_notice": "Legal Notice",
           "data_protection": "Data Protection"
         },
-        "newslettre": {
+        "newsletter": {
           "title": "Newsletter",
           "enter_email_address": "Enter email address",
           "sign_up": "Sign Up"
@@ -20,7 +20,7 @@
         "socials": {
           "title": "Socials"
         },
-        "signature": "Made with ❤️ by"
+        "signature": "Made with ❤️ by "
       }
     },
     "page_content": {

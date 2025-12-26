@@ -5,6 +5,7 @@ import { Icon } from "@iconify/react";
 import { withTranslation } from "react-i18next";
 import { t } from "i18next";
 import { Link } from "react-router";
+import Footer from "../components/Footer/Footer";
 
 function Home() {
   return (
@@ -71,6 +72,7 @@ function Home() {
           </section>
         </section>
       </main>
+      <Footer />
     </>
   );
 }

@@ -12,15 +12,15 @@
           "legal_notice": "Mentions légales",
           "data_protection": "Protection des données"
         },
-        "newslettre": {
+        "newsletter": {
           "title": "Newsletter",
           "enter_email_address": "Entrez votre adresse e-mail",
-          "sign_up": "S’abonnez"
+          "sign_up": "S'abonnez"
         },
         "socials": {
           "title": "Réseaux sociaux"
         },
-        "signature": "Réalisé avec ❤️ par"
+        "signature": "Réalisé avec ❤️ par "
       }
     },
     "page_content": {
