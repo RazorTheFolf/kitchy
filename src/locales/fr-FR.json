@@ -42,7 +42,24 @@
           }
         }
       },
-      "about": {}
+      "about": {
+        "title": "Rentrons en contact",
+        "sub_title_top": "Vous avez une question ?",
+        "sub_title_bot": "Notre équipe se tient à votre disposition pour vous aider à trouver l'appareil électroménager qui vous convient le mieux.",
+        "form": {
+          "first_name": "Prénom*",
+          "fist_name_ph": "Entrez votre prénom",
+          "last_name": "Nom*",
+          "last_name_ph": "Entrez votre nom",
+          "email": "Email*",
+          "email_ph": "Entrez votre adresse e-mail",
+          "phone_number": "Numéro de téléphone",
+          "phone_number_ph": "Entrez votre  numéro de téléphone",
+          "message": "Message*",
+          "message_ph": "Écrivez votre message...",
+          "send_btn": "Envoyer"
+        }
+      }
     }
   }
 }

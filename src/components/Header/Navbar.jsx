@@ -33,7 +33,7 @@ function Navbar() {
         <div className={styles.nav_links}>
           <Link to="/shop">{t("components.navbar.shop")}</Link>
           <Link to="/contact">{t("components.navbar.get_in_touch")}</Link>
-          <Link to="/about-us">{t("components.navbar.about_us")}</Link>
+          <Link to="/about">{t("components.navbar.about_us")}</Link>
         </div>
         <div className={styles.nav_shortcuts}>
           <button onClick={() => SwitchLang()}>{buttonSwitchLang}</button>

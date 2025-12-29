@@ -11,7 +11,7 @@ main {
 
   margin-top: 30px;
   width: 100%;
-  height: 510px;
+  height: 65%;
 }
 
 .hero {
@@ -36,7 +36,7 @@ main {
 .hero h1 {
   font-size: var(--text-size-h2);
   font-weight: 400;
-  width: 35%;
+  width: 310px;
 }
 
 .hero p {
@@ -110,7 +110,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 15px 25px 15px;
+  padding: 35px 25px 35px 25px;
   border: 2px solid var(--color-border);
   border-radius: 21px;
 }
