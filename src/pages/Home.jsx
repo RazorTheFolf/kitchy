@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className={styles.main}>
         <section className={styles.hero_container}>
           <section className={styles.hero}>
             <h1>{t("page_content.home.hero_title")}</h1>
