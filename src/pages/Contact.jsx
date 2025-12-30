@@ -2,7 +2,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import { withTranslation } from "react-i18next";
 import { t } from "i18next";
-import styles from "./styles/About.module.css";
+import styles from "./styles/Contact.module.css";
 import Navbar from "../components/Header/Navbar";
 import Footer from "../components/Footer/Footer";
 

@@ -6,13 +6,23 @@ import { Link } from "react-router";
 import { useEffect, useState } from "react";
 
 function Navbar() {
-  const [buttonSwitchLang, setButtonSwitchLang] = useState("");
+  const [buttonSwitchLang, setButtonSwitchLang] = useState(<></>);
 
   useEffect(() => {
     if (i18next.language === "fr-FR") {
-      setButtonSwitchLang("🇬🇧 EN");
+      setButtonSwitchLang(
+        <>
+          <Icon icon="twemoji:flag-united-kingdom" width="16" height="16" />
+          EN
+        </>
+      );
     } else if (i18next.language === "en-GB") {
-      setButtonSwitchLang("🇫🇷 FR");
+      setButtonSwitchLang(
+        <>
+          <Icon icon="twemoji:flag-france" width="16" height="16" />
+          FR
+        </>
+      );
     }
   }, [i18next.language]);
 
@@ -36,7 +46,9 @@ function Navbar() {
           <Link to="/about">{t("components.navbar.about_us")}</Link>
         </div>
         <div className={styles.nav_shortcuts}>
-          <button onClick={() => SwitchLang()}>{buttonSwitchLang}</button>
+          <button className={styles.lang_btn} onClick={() => SwitchLang()}>
+            {buttonSwitchLang}
+          </button>
           <a href="#">
             <Icon icon="iconamoon:search-duotone" width="26" height="26" />
           </a>

@@ -62,7 +62,12 @@ nav {
   gap: 15px;
 }
 
-button {
+.lang_btn {
   all: unset;
   cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
